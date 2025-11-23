@@ -11,6 +11,7 @@ const Button = ({
 	buttonBackgroundColor,
 	action,
 }: ButtonProps) => {
+	
 	const backgroundColorClass = buttonBackgroundColor
 		? {
 				red: "bg-red-500",
